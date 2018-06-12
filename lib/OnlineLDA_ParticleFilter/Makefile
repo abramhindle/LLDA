@@ -1,6 +1,6 @@
 PROGRAM	= ldapf.so
 CC	= gcc
-CFLAGS	= -O3
+CFLAGS	= -O3 -fPIC
 SRCS	= ldapf.c learn.c writer.c feature.c imatrix.c dmatrix.c util.c
 OBJS	= $(SRCS:.c=.o)
 HEADERS	= $(SRCS:.c=.h)
